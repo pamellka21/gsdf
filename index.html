@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Информация про разные автомобили Audi такие как: Audi rs6,q7, a6 и т.д.">
+    <meta name="keywords" content="машина audi, машина audi a6, машина audi q7, машина audi a4, купить машину audi, скачать машину audi">
+    <title>Audi's cars about</title>
+    <!-- Подключение favicon -->
+    <link rel="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link rel="image/x-icon" href="favicon.ico" rel="icon">
+    <!-- Подключение font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Подключение jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Подключаем CSS слайдера -->
+    <link rel="stylesheet" href="https://itchief.ru/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.css">
+    <!-- Подключаем JS слайдера -->
+    <script defer src="https://itchief.ru/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // инициализация слайдера
+        var slider = new SimpleAdaptiveSlider('.slider', {
+          loop: false,
+          autoplay: false,
+          interval: 5000,
+          swipe: true,
+        });
+      });
+    </script>
+
+</head>
+<body>
+    <header class = "header">
+      <a href="#" class="header__logo">
+        Audi's cars
+    </a>
+        <div class="container header__container">
+            <div class="menu-burger__header">
+                <span></span>
+            </div>
+            <nav class="header__nav">
+                <ul class="menu header__menu">
+                    <li><a href="" class="menu__item">Главная</a></li>
+                    <li><a href="" class="menu__item">Информация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- раздел с картинками -->
+
+    <div class="image-container">
+    <img src="img1.jpg" alt="Image 1">
+    <img src="img2.jpg" alt="Image 2">
+    <img src="img3.jpg" alt="Image 3">
+    </div>
+
+<!-- Конец отдела с картинками -->
+
+<!-- Артикуль -->
+
+
+    <div class="container-article">
+    <img class="image" src="img4.jpg" alt="Описание изображения">
+    <div class="text">
+        <h2>Audi a6 c6</h2>
+        <p>Audi A6 — представитель автомобилей бизнес — класса, производимых в Германии. Audi A6 (C6) была выпущена в 2004 году. Новое поколение С6 сохранило в себе все фамильные черты присущие марке Audi.</p>
+    </div>
+    </div>
+
+    <div class="container-article">
+    <img class="image" src="img5.jpg" alt="Описание изображения">
+    <div class="text">
+        <h2>Audi RS6</h2>
+        <p>Невероятно динамичный и крайне практичный, Audi RS 6 Avant подходит как для семейной поездки, так и для заезда на гоночном треке. Этот мощный автомобиль гармонично сочетает в себе характеристики спорткара и вместительность Audi Avant. Любовь с первой поездки.</p>
+    </div>
+    </div>
+
+
+<!-- Слайдер -->
+
+ <!-- Разметка слайдера -->
+ <div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__items">
+        <div class="slider__item">
+          Лучшая машина — новая машина!
+        </div>
+        <div class="slider__item">
+          Ещё ни один пешеход не задавил автомобиля, тем не менее недовольны почему-то автомобилисты.
+        </div>
+        <div class="slider__item">
+          Не помню, когда я впервые заинтересовался гонками, но я всегда любил скорость. Мой отец всегда ездил быстро, а я, ребенком, сидел у него на коленях и просил ехать еще быстрее, потому мы должны обогнать того парня, что едет впереди.
+        </div>
+        <div class="slider__item">
+          Любое государство как таковое есть машина, а у машины нет разума, по каким бы разумным образцам она не была построена — и вся надежда на то, что, как и всякая машина, оно не вечно.
+        </div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+  </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
